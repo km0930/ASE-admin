@@ -1,0 +1,60 @@
+{
+  "name": "appsecengineer-admin-ui",
+  "version": "0.0.1",
+  "description": "Admin portal for AppSecEngineer",
+  "productName": "AppSecEngineer Admin Portal",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./ --fix",
+    "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-components": "^1.9.40",
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/legacy-modes": "^6.3.3",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "@quasar/extras": "^1.16.4",
+    "aws-amplify": "^4.3.46",
+    "aws-amplify-vue": "^2.1.9",
+    "axios": "^0.27.2",
+    "codemirror": "^6.0.1",
+    "core-js": "^3.31.0",
+    "echarts": "^5.4.2",
+    "highlight.js": "^11.9.0",
+    "jwt-decode": "^3.1.2",
+    "pinia": "^2.1.7",
+    "quasar": "^2.12.3",
+    "simple-code-editor": "^2.0.8",
+    "vue": "^3.4.15",
+    "vue-codemirror": "^6.1.1",
+    "vue-router": "^4.2.2",
+    "vue3-html2pdf": "^1.1.2",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.6",
+    "@quasar/app-webpack": "^3.9.2",
+    "@quasar/quasar-app-extension-qflashcard": "^2.0.0-alpha.4",
+    "@quasar/quasar-app-extension-qmarkdown": "^2.0.0-beta.10",
+    "buffer": "^6.0.3",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-quasar": "^1.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "prettier": "^2.8.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

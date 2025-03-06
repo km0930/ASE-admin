@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "mhutchie.git-graph",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin"
+  ],
+  "unwantedRecommendations": ["dbaeumer.jshint", "hookyqr.beautify", "ms-vscode.vscode-typescript-tslint-plugin", "octref.vetur"]
+}

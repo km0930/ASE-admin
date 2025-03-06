@@ -1,0 +1,6 @@
+{
+  "@quasar/qflashcard": {},
+  "@quasar/qmarkdown": {
+    "import_md": false
+  }
+}

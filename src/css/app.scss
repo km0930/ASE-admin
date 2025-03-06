@@ -1,0 +1,113 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.ase-roboto {
+  font-family: 'Roboto';
+}
+body {
+  background-color: #111111;
+  font-family: 'Roboto';
+}
+#app {
+  color: #ffffff;
+  font-weight: 700;
+}
+.q-table th.sortable {
+  cursor: pointer;
+  font-size: 13px;
+}
+.q-table--horizontal-separator thead th {
+  border-bottom-width: 1px;
+  font-size: 13px;
+}
+.portal_sm {
+  font-size: 12px;
+}
+.portal_md {
+  font-size: 14px;
+}
+.portal_lg {
+  font-size: 16px;
+}
+.portal_xlg {
+  font-size: 18px;
+}
+.portal_xxlg {
+  font-size: 22px;
+}
+.portal_font_color {
+  color: #ffffff;
+}
+.portal_bold {
+  font-weight: 550;
+}
+.portal_font_family {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centering_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.bordered {
+  border: 2px solid white;
+}
+.disable_class {
+  border: 2px solid rgb(65, 64, 64);
+  color: #bbb8b8;
+}
+.text_center {
+  text-align: center;
+}
+.none_spacing {
+  margin: 0px;
+  padding: 0px;
+}
+.portal_word_wrap {
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.error_msg {
+  color: red;
+}
+.login_height {
+  min-height: 20%;
+  min-width: 40%;
+}
+.bg_dark {
+  background-color: #111111;
+}
+.ase-black-light {
+  color: #808191;
+}
+.none-spacing {
+  margin: 0px;
+  padding: 0px;
+}
+.viewPages {
+  padding: 7px;
+}
+.padding_7 {
+  padding: 7px;
+}
+.padding_12 {
+  padding: 7px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
